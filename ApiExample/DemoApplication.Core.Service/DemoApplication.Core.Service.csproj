@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="CloudinaryDotNet" Version="1.20.0" />
+    <PackageReference Include="dotenv.net" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoApplication.Core.Contract\DemoApplication.Core.Contract.csproj" />
+    <ProjectReference Include="..\DemoApplication.Infra.Contract\DemoApplication.Infra.Contract.csproj" />
+    <ProjectReference Include="..\DemoApplication\DemoApplication.Core.Builder.csproj" />
+  </ItemGroup>
+
+	<!--<ItemGroup>
+		<PackageReference Include="" Version="5.0.17"/>
+	</ItemGroup>-->
+
+	
+</Project>
